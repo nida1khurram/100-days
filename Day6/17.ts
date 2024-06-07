@@ -1,4 +1,5 @@
- 
+ //Question 17: Shrinking Guest List: Unfortunately, your new table won’t arrive in time, and 
+ //you can only invite two guests
 let guestlist:string []=["Saad","Ali","Raza","Faiza","Irha","Khan"];
 // Add a new line that prints a message saying that you can invite only two people for dinner.
 console.log(`I can invite only two people for dinner.`);
@@ -21,3 +22,4 @@ for ( let guest of guestlist){
 
 guestlist.splice(0,guestlist.length)
 console.log("Guest List after Dinner", guestlist);
+export{}

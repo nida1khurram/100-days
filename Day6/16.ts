@@ -1,4 +1,4 @@
-
+//Question 16: More Guests: You've found a bigger dinner table, so there's room for more guests
 //*list of guest list in array
 let guestlist:string []=["Ali","Faiza","Irha"];
 

@@ -1,3 +1,4 @@
+"use strict";
 // Toshiba Model PTSE3U-06NOOG
 // let laptop={
 //     name:"Toshiba",
@@ -9,12 +10,12 @@
 // }
 // };
 // laptop.describe()
-var laptop = {
+let laptop = {
     name: "Toshiba",
     model: " PTSE3U-06NOOG",
     year: 2022,
 };
 function abc() {
-    console.log("This laptop is".concat(laptop.name, ", ").concat(laptop.model, ", ").concat(laptop.year));
+    console.log(`This laptop is${laptop.name}, ${laptop.model}, ${laptop.year}`);
 }
 abc();
